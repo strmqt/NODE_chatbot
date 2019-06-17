@@ -10,7 +10,7 @@ var app = require('./app');
 app.set('view engine', 'ejs');
 
 //establecer el puerto
-var port = process.env.PORT || 5000;
+var port = process.env.PORT || 5001;
 
 //variables de conexion
 var config = {
