@@ -10,14 +10,14 @@ var app = require('./app');
 app.set('view engine', 'ejs');
 
 //establecer el puerto
-var port = process.env.PORT || 5002;
+var port = process.env.PORT || 5001;
 
 //variables de conexion
 var config = {
 	user : 'str_bot',
-	password : '12345',
-	server : 'cronos2des.stratesys.es',
-	database : 'strtr_local'
+	password : '12345Rpa',
+	server : 'cronos.stratesys.es',
+	database : 'strtr_prod'
 };
 
 //en caso de error
